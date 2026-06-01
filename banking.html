@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Simple Bank App</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="banking.js"></script>
+</head>
+<body>
+    <div class="fieldContainer">
+        <h2>West Coast Banking</h2>
+        <div>
+
+            <div class="createAccField">
+                <h3>Create Account</h3>
+                <input type="text" id="nameInput" placeholder="Account Name"><br>
+                <input type="number" id="startBalance" placeholder="Starting Balance"><br>
+                <button id="createAccountBtn" onclick="createAccount()">Create Account</button>
+            </div>
+
+            <div class="accField">
+                <h3>Select An Account</h3>
+                <select id="accSelect" onchange="changeAccountDisplay()"></select>
+            </div>
+
+            <div class="balance">
+                <h2 id="accName"></h2>
+                Account Balance: <span id="accBalance">0.00</span>
+            </div>
+
+            <div class="withdrawField">
+                <input type="number", id="withdrawInput" placeholder="Withdraw Amount"><br>
+                <button id="withdrawButton" onclick="withdrawBtn()">Withdraw</button><br>
+            </div>
+
+            <div class="depositField">
+                <input type="number", id="depositInput" placeholder="Deposit Amount"><br>
+                <button id="depositButton" onclick="depositBtn()">Deposit</button>
+            </div>
+
+            <div class="transferField">
+                <h3>Transfer</h3>
+                <select id="transferTo"></select><br>
+                <input type="number" id="transferInput" placeholder="Transfer Amount"><br>
+                <button onclick="transferBtn()">Transfer</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

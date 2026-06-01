@@ -1,0 +1,90 @@
+.wrapper
+{
+	border: 2px solid #23260F;
+    border-radius: 5px;
+	background-color: #A68953;
+	max-width: 1000px;
+	min-width: 700px;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.special-gothic-expanded-one-regular {
+    font-family: "Special Gothic Expanded One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+input[type="text"]
+{
+    
+}
+
+h1, h2, h3, h4 
+{
+    text-align: center;
+    font-family:"Special Gothic Expanded One";
+    filter: none;
+    letter-spacing: 2px;
+    /* text-shadow: 3px 0px 1px #F2EFDF; */
+    border-left: 10px solid #403D1E ;
+    border-radius: 5px;
+    width: auto;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: #595622;
+    color: #000000;
+}
+
+
+.createAccField
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.accField
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.balance
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.withdrawField 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.depositField
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.transferField
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
